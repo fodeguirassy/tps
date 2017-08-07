@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.furkilic.tpcalc.MainActivity"
+    android:orientation="vertical">
+    <fragment
+        class="com.furkilic.tpcalc.ResultFragment"
+        android:id="@+id/fragment_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></fragment>
+    <fragment
+        class="com.furkilic.tpcalc.KeyboardFragment"
+        android:id="@+id/fragment_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></fragment>
+
+
+</LinearLayout>

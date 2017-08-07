@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TPResource</string>
+    <string name="message1">Message One</string>
+    <string name="message2">Message Two</string>
+</resources>
